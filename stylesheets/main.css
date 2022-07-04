@@ -1,6 +1,6 @@
 
          
-body{background-color: #C2DFE8;
+body{background-color: #ffffff;
   position: relative;
   overflow-y: scroll;}
  
@@ -8,7 +8,7 @@ body{background-color: #C2DFE8;
         transform-origin: center bottom 0px;
         transition: all 0.3s ease 0s;
         box-shadow: 0px 22px 54px rgba(0, 0, 0, 0.5);
-        background-color: #ffffff;
+       
       }
       
       body.tight .wrapper {
@@ -23,4 +23,9 @@ body{background-color: #C2DFE8;
   font-weight: bolder;
 }
       
-   
+#route{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+}
