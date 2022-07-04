@@ -1,5 +1,5 @@
 <template>
-<div><h1>Sme ľudia, ktorý pôsobili v rôznych oblastiach profesijného života</h1> dlhé roky sme pracovali s ľuďmi, či už
+<div class="content-wrapper"><h1>Sme ľudia, ktorý pôsobili v rôznych oblastiach profesijného života</h1> dlhé roky sme pracovali s ľuďmi, či už
 starostlivosťou o spolupracovníkov, manažmentom alebo prácou s deťmi. V rámci týchto našich
 rôznych profesií sme začali chápať, že len strohé vykonávanie činností a logické sa dožadovanie
 svojich požiadaviek nedosiahneme častokrát želaného výsledku a namiesto vytúženého šťastia

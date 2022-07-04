@@ -1,6 +1,6 @@
 
          
-body{background-color: #ffffff;
+body{background-color: #C2DFE8;
   position: relative;
   overflow-y: scroll;}
  
@@ -16,16 +16,27 @@ body{background-color: #ffffff;
         border-radius: 20px;
         cursor: pointer;
       }
-      #navbar{background-color: white;}
+      #navbar{background-color:#cde5ef;}
+
+
 #navbar .active{
-  color:rgb(253, 157, 2);
+  color:rgb(245, 243, 124);
   background-color: transparent;
   font-weight: bolder;
 }
       
-#route{
+#mySVG {
   position: absolute;
-  top: 0;
-  left: 0;
+  top:230px;
+  left:200px;
+  width: 400px;
+  height: 2310px;
   z-index: -100;
+}
+
+.content-wrapper{
+  background-color: rgb(219, 237, 240);
+  border-radius: 20px;
+  padding:10px;
+
 }

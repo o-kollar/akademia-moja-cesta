@@ -7,3 +7,7 @@ new Vue({
       'faq-section':httpVueLoader('./components/faq.vue')
     }
   });
+
+
+
+  

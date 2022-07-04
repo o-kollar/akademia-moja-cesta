@@ -1,8 +1,8 @@
 <template>
-    <div>
+    <div id="content-wrapper">
         <h2>Víziou akadémia moja cesta je rozvoj jednotlivca v oblastiach, ktoré najviac ovplyvňujú kvalitu jeho života.</h2>
-        <a class="" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"  @click="expanded = !expanded">
-           {{ expanded ? '' : ' chcem zistit viac...' }}
+        <a v-if="expanded===false" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"  @click="expanded = !expanded">
+         chcem zistit viac...
         </a>
         <div class="collapse" id="collapseExample">
             <div class="card card-body">
@@ -30,9 +30,17 @@ module.exports = {
 </script>
 <style>
 .text-box {
-    background-color: #c2dfe8;
+    background-color: rgb(219, 237, 240);
     border-radius: 20px;
     padding: 30px;
 }
-.card{border:none}
+.card{border:none;
+ background-color: rgb(219, 237, 240);}
+
+#content-wrapper{
+    background-color: rgb(219, 237, 240);
+    border-radius: 20px;
+    padding:10px;
+
+}
 </style>

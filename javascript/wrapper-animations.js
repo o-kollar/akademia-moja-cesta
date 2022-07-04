@@ -26,15 +26,13 @@ $('.arrow').click(function(){
 $(document).ready(function(){
 
   $(window).scroll(function() {
-    drawLine( $('#route'),
-              document.getElementById('path') );
+    drawLine( $('#mySVG'),
+              document.getElementById('triangle') );
   });
   
-  // init the line length
-    drawLine( $('#route'),
-              document.getElementById('path') );
+    drawLine( $('#mySVG'),
+              document.getElementById('triangle') );
 
-  //draw the line
   function drawLine(container, line){
     
     var pathLength = line.getTotalLength(),
@@ -45,4 +43,3 @@ $(document).ready(function(){
   }
   
 });
-
