@@ -95,5 +95,13 @@ body{background-color: rgb(255, 255, 255);
   background-color: #eff0c1;
 }
 .page-footer{
-  background-color: cadetblue;
+  background-color: #cbdbe2;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+#base {
+	cursor: pointer;
 }
