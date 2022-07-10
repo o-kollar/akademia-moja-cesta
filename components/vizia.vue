@@ -1,10 +1,10 @@
 <template>
     <div id="content-wrapper">
-        <h2>Víziou akadémia moja cesta je rozvoj jednotlivca v oblastiach, ktoré najviac ovplyvňujú kvalitu jeho života.</h2>
-        <a v-if="expanded===false" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"  @click="expanded = !expanded">
+        <h1>Víziou akadémia moja cesta je rozvoj jednotlivca v oblastiach, ktoré najviac ovplyvňujú kvalitu jeho života.</h1>
+        <a v-if="expanded===false" data-bs-toggle="collapse" href="#mission-collapsed" role="button" aria-expanded="false" aria-controls="collapseExample"  @click="expanded = !expanded">
          chcem zistit viac...
         </a>
-        <div class="collapse" id="collapseExample">
+        <div class="collapse" id="mission-collapsed">
             <div class="card card-body">
                 Berieme jednotlivca ako nedeliteľnú súčasť spoločnosti, ktorý svojim vedomím prispieva k celkovej prosperite spoločnosti a okoliu v ktorom žije.
                 Vzchádzame z toho, že naše vedomie a pohľad na situácie, ktoré v živote zažívame má rozhodujúci vplyv na to akým smerom sa vyvíja náš život, aké
@@ -29,18 +29,7 @@ module.exports = {
 };
 </script>
 <style>
-.text-box {
-    background-color: rgb(219, 237, 240);
-    border-radius: 20px;
-    padding: 30px;
-}
-.card{border:none;
- background-color: rgb(219, 237, 240);}
-
-#content-wrapper{
-    background-color: rgb(219, 237, 240);
-    border-radius: 20px;
-    padding:10px;
-
-}
+.card{border:none;}
+#content-wrapper{margin-bottom: 100px;
+background-color: white;}
 </style>

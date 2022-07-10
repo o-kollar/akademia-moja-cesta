@@ -1,8 +1,16 @@
 <template>
-<div class="content-wrapper">
-<h1> Cinnost ? Prezentácie ? kurzy ? Produkt ? čo sem ide ? </h1> 
-<p>Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui. Proin massa magna, vulputate nec bibendum nec, posuere nec lacus.</p>
+
+    <div class="course-card course-card-color-1"  data-bs-toggle="collapse" data-bs-target="#collapseKurz" aria-expanded="false" aria-controls="collapseKurz">
+      <div class="border"></div>
+       <img class="img-3" src="./resources/kurz-illustration.png">
+      <h1>Kurzy</h1>
+        <div class="collapse" id="collapseKurz">
+V rámci kurzov budeme okrem intelektuálnej práce a zapájania našej mysle a predstavivosti, riešiť aj
+veci praktické, nakoľko praktická skúsenosť a fyzické zážitky nás dokážu učiť najlepšie. Spojíme tak
+získané vedomosti a uvedomia s fyzickým prežitkom nášho tela a s tým ako sa nakoniec staneme opäť
+vedomými obyvateľmi našej telesnej schránky, ktorú sme dostali pre tento život do našej správy.
 </div>
+    </div>
 </template>
 <script>
 module.exports = {
@@ -15,5 +23,10 @@ module.exports = {
 
 </script>
 <style>
-
+.course-card > .img-3 {
+  width: 90%;
+  position: absolute;
+  top: -17%;
+  left: -10%;
+}
 </style>

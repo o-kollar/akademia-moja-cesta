@@ -1,22 +1,11 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500&display=swap');
          
-body{background-color: #C2DFE8;
+body{background-color: rgb(255, 255, 255);
   position: relative;
   overflow-y: scroll;}
- 
-      .wrapper {
-        transform-origin: center bottom 0px;
-        transition: all 0.3s ease 0s;
-        box-shadow: 0px 22px 54px rgba(0, 0, 0, 0.5);
-       
-      }
-      
-      body.tight .wrapper {
-        transform: translateY(-60px) scale(0.95);
-        border-radius: 20px;
-        cursor: pointer;
-      }
-      #navbar{background-color:#cde5ef;}
+
+#navbar{background-color:white;}
 
 
 #navbar .active{
@@ -24,19 +13,87 @@ body{background-color: #C2DFE8;
   background-color: transparent;
   font-weight: bolder;
 }
-      
+  
 #mySVG {
   position: absolute;
-  top:230px;
+  top:330px;
   left:200px;
-  width: 400px;
   height: 2310px;
   z-index: -100;
 }
 
 .content-wrapper{
-  background-color: rgb(219, 237, 240);
+  background-color: white;
   border-radius: 20px;
   padding:10px;
 
+}
+
+.course-card-column {
+  width: 50%;
+  float: left;
+  padding: 4%;
+  box-sizing: border-box;
+
+}
+
+.column-1 {
+  padding-top: 100px;
+}
+
+.course-card {
+  width: 92%;
+  max-width: 340px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  background: #EB5160;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  margin-bottom: 60px;
+  border-radius: 20px;
+  text-align: center;
+  padding:10px;
+}
+
+.border {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 6px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  opacity: 1;
+  border-color: black;
+  left: -6px;
+  top: -6px;
+}
+
+.course-card h1 {
+  position: relative;
+  padding: 190px 0px 100px 10px;
+  width: 90%;
+  font-family: 'Inter', sans-serif;
+}
+
+
+
+
+.course-card-color-0 {
+  background-color: #f69ba4;
+}
+
+.course-card-color-1 {
+  background-color: #b9d27a;
+}
+
+.course-card-color-2 {
+  background-color: #cbdbe2;
+}
+
+.course-card-color-3 {
+  background-color: #eff0c1;
+}
+.page-footer{
+  background-color: cadetblue;
 }
